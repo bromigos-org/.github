@@ -1,6 +1,6 @@
 ## Welcome Bromigo
 
-We are on a mission to create a Multimedia Interactive Franchise. Here you can see our public roadmaps and phases that can be changed any time and you will see the updates live here.
+We are on a mission to create a Multimedia Interactive Franchise. Here you can see our public roadmaps and phases that are subject to change any time and you will see the updates live here.
 
 ```mermaid
 gantt
