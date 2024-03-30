@@ -12,7 +12,7 @@ gantt
     Add TempChannels feature     :done, vap1, after bot1, 10d
     Add VentAnonymously feature        :done, tcp1, after vap1, 10d
     Add PosttoChannel as bot feature       :done, ptc1, after tcp1, 5d
-    Add Deletepost as bot feature        :active, dp1, after ptc1, 5d
+    Add Deletepost as bot feature        :active, dp1, after ptc1, 8d
     Add ReactionRole as bot feature      :        rr1, after dp1, 10d
     Interactive Bot Features        :        ibf1, after manga1, 45d
 
