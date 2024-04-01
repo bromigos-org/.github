@@ -63,7 +63,7 @@ The Bromigos MF Phase 0 Roadmap outlines the initial phase in the development of
 - Add TempChannels Feature: Allows users to create temporary channels for specific conversations, enhancing user interaction.
 - Add VentAnonymously Feature: Enables users to share their thoughts anonymously, fostering a supportive community environment.
 - Add PosttoChannel as Bot Feature: Allows admins to post messages in any channel as the bot, improving communication flexibility.
-- Add Deletepost as Bot Feature (Active): Lets users request the deletion of their own posts via the bot, adding a layer of privacy and control.
+- Add Deletepost as Bot Feature (Active): Lets moderator request the deletion of a number of posts via the bot, adding a layer of privacy and control.
 - Add ReactionRole as Bot Feature: Enables role assignment through reactions to messages, simplifying user role management.
 - Interactive Bot Features: To be developed, aiming to make interactions more engaging and immersive within the Discord community.
 #### Community Engagement
