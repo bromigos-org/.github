@@ -26,9 +26,9 @@ gantt
     Hackathon Events Setup               :        hack1, after cgn1, 60d
 
     section Gaming
-    AI NPC LLM                 :        tb1, after pat1, 60d
-    Text-Based Game 2               :        tb2, after ss1, 60d
-    Text-Based Game 3               :        tb3, after tb2, 60d
+    AI NPC LLM                 :        anp1, after poll1, 60d
+    NPC Persona               :        np1, after anp1, 60d
+    NPC Persona 2             :        np2, after np1, 60d
     Horror Game                     :        hg1, after vn1, 120d
     RPG Game Development            :        rpg1, after hg1, 180d
     Minecraft Server Launch         :        mc1, after web1, 60d
