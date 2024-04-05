@@ -13,7 +13,8 @@ gantt
     Add VentAnonymously feature        :done, tcp1, after vap1, 10d
     Add PosttoChannel as bot feature       :done, ptc1, after tcp1, 5d
     Add Deletepost as bot feature        :done, dp1, after ptc1, 8d
-    Add ReactionRole as bot feature      :active,        rr1, after dp1, 10d
+    Add ReactionRole as bot feature      :active,        rr1, after ne1, 10d
+    Add new Emojis to the server      :done,        ne1, after dp1, 5d
     Add /Poll as Bot Feature       :        poll1, after rr1, 5d
     Interactive Bot Features        :        ibf1, after manga1, 45d
 
@@ -49,10 +50,10 @@ gantt
     Merchandise Store Launch        :        merch1, after pm1, 60ds
 
     section Literature
-    Story Boarding for Text-Based Game  :active,        sb1, after dp1, 30d
-    Short Story for Universe Building:      ss1, after tb1, 30d
-    Short Story            :        ssc1, after tb2, 30d
-    Release of First Book           :        book1, after rpg1, 90d
+    Settle on 5 Character names       :active,        scn1, after ne1, 3d
+    Create 20 character baselines     :        cb1, after scn1, 14d
+    Settle on 5 Characters to expand     :        scd1, after cb1, 14d
+    Research conversation and personality traits:        rcpt1, after scd1, 30d
 
 
 ```
