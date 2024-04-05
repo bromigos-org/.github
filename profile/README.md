@@ -26,7 +26,7 @@ gantt
     Hackathon Events Setup               :        hack1, after cgn1, 60d
 
     section Gaming
-    Text-Based Game                 :        tb1, after pat1, 60d
+    AI NPC LLM                 :        tb1, after pat1, 60d
     Text-Based Game 2               :        tb2, after ss1, 60d
     Text-Based Game 3               :        tb3, after tb2, 60d
     Horror Game                     :        hg1, after vn1, 120d
@@ -107,5 +107,7 @@ The Bromigos MF Phase 0 Roadmap outlines the initial phase in the development of
 
 #### Literature
 
-- Short Stories for Universe Building: Writing short stories to enrich the Bromigos universe, providing deeper insights and backgrounds.
-- Release of First Book: Publishing the first book set in the Bromigos universe, aiming to captivate readers with an in-depth exploration of its lore and characters.
+- Settle on 5 Character Names (Active): Finalizing the names of key characters in the Bromigos universe to maintain consistency and identity.
+- Create 20 Character Baselines: Developing detailed character profiles to guide their development and interactions within the universe.
+- Settle on 5 Characters to Expand: Selecting characters with potential for further exploration and expansion in future projects.
+- Research Conversation and Personality Traits: Studying various conversation and personality traits to enhance character depth and authenticity.
