@@ -13,33 +13,40 @@ gantt
     Add VentAnonymously feature        :done, tcp1, after vap1, 10d
     Add PosttoChannel as bot feature       :done, ptc1, after tcp1, 5d
     Add Deletepost as bot feature        :done, dp1, after ptc1, 8d
-    Add ReactionRole as bot feature      :active,        rr1, after ne1, 10d
+    Add Server onboarding      :done,        sb1, after ne1, 10d
     Add new Emojis to the server      :done,        ne1, after dp1, 5d
-    Add /Poll as Bot Feature       :        poll1, after rr1, 5d
     Interactive Bot Features        :        ibf1, after manga1, 45d
 
+    section AI
+    Neo4j Graph Database :active,        neo1, after sb1, 4w
+    Text Embedding Model :        tem1, after neo1, 4w
+    Vector Index on Neo4j:        vin1, after tem1, 4w
+    LLM RAG Augmented Index on Neo4j: lrain1, after vin1, 4w
+    Generative AI :        gai1, after lrain1, 4w
+    
+
     section Community Engagement
-    Rework Coding Cohort          :        rcc1, after rr1, 30d
-    Progression System Integration:        psi1, after rcc1, 60d
+    Rework Coding Cohort          :        rcc1, after neo1, 4w
+    Progression System Integration:        psi1, after rcc1, 8w
     Create Coding Introduction Course:      cic1, after psi1, 90d
-    Community Game Night Events Setup          :active,        cgn1, after dp1, 60d
-    Hackathon Events Setup               :        hack1, after cgn1, 60d
+    Community Game Night Events Setup          :        cgn1, after rcc1, 8w
+    Hackathon Events Setup               :        hack1, after cgn1, 8w
 
     section Gaming
-    AI NPC LLM                 :        anp1, after poll1, 60d
-    NPC Persona               :        np1, after anp1, 60d
-    NPC Persona 2             :        np2, after np1, 60d
-    Horror Game                     :        hg1, after vn1, 120d
+    AI NPC LLM                 :        anp1, after lrain1, 8w
+    NPC Persona               :        np1, after anp1, 8w
+    NPC Persona 2             :        np2, after np1, 8w
+    Horror Game                     :        hg1, after ss2, 120d
     RPG Game Development            :        rpg1, after hg1, 180d
-    Minecraft Server Launch         :        mc1, after web1, 60d
-    AI Character in Minecraft       :        ai1, after mc1, 30d
+    Minecraft Server Launch         :        mc1, after web1, 8w
+    AI Character in Minecraft       :        ai1, after mc1, 4w
 
     section Online Presence
-    YouTube Channel Launch          :        yt1, after rcc1, 90d
-    Twitch Channel Launch           :        twitch1, after yt1, 30d
-    Patreon Launch                  :        pat1, after twitch1, 30d
+    YouTube Channel Launch          :        yt1, after rcc1, 12w
+    Twitch Channel Launch           :        twitch1, after yt1, 4w
+    Patreon Launch                  :        pat1, after twitch1, 4w
     Website Version 1               :        web1, after vn1, 45d
-    Community Forum Launch          :        cf1, after web1, 30d
+    Community Forum Launch          :        cf1, after web1, 4w
 
     section Content Creation
     Virtual Novel with Custom Music :        vn1, after tb3, 15d
@@ -47,13 +54,15 @@ gantt
     Propaganda Magazine Release     :        pm1, after ibf1, 30d
 
     section Merchandising
-    Merchandise Store Launch        :        merch1, after pm1, 60ds
+    Merchandise Store Launch        :        merch1, after pm1, 8w
 
     section Literature
-    Settle on 5 Character names       :active,        scn1, after ne1, 3d
-    Create 20 character baselines     :        cb1, after scn1, 14d
-    Settle on 5 Characters to expand     :        scd1, after cb1, 14d
-    Research conversation and personality traits:        rcpt1, after scd1, 30d
+    Settle on 5 Character names       :done,        scn1, after ne1, 3d
+    Brainstorm lore baseline     :done,        cb1, after scn1, 1w
+    Short Story #1:active,        ss1, after cb1, 3w
+    Short Story #2:        ss2, after ss1, 3w
+    Settle on 5 Characters to expand     :        scd1, after ss2, 2w
+    Research conversation and personality traits:        rcpt1, after scd1, 4w
 
 
 ```
