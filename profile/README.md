@@ -53,6 +53,11 @@ gantt
     Light Novel Manga Creation      :        manga1, after ai1, 90d
     Propaganda Magazine Release     :        pm1, after ibf1, 30d
 
+    section Content Tooling
+    Transcoder Pipeline             :        tp1, after vn1, 4w
+    Content Management System       :        cms1, after tp1, 2w
+    Content Delivery Network        :        cdn1, after cms1, 15d
+
     section Merchandising
     Merchandise Store Launch        :        merch1, after pm1, 8w
 
