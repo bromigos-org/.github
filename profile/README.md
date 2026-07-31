@@ -1,127 +1,98 @@
-## Welcome Bromigo
+## Welcome, Bromigo
 
-We are on a mission to create a Multimedia Interactive Franchise. Here you can see our public roadmaps and phases that are subject to change any time and you will see the updates live here.
+**One network. Every world.** We are on a mission to build a Multimedia Interactive Franchise — community tools, memory-aware AI, games, and fiction that all connect back to one universe. Everything is built in public: the roadmaps below are live, subject to change at any time, and updated right here.
+
+**⌁ Command hub:** [bromigos.org](https://bromigos.org) · **⌁ Field comms:** [brodec.web.app](https://brodec.web.app)
+
+### Active operations
+
+| Operation | Role | Status |
+|---|---|---|
+| [BRODEC](https://github.com/bromigos-org/brodec) | Retro-codec tactical comms game — AI specialists, squad calls, geofenced field ops | 🟢 LIVE |
+| [PC-Principal](https://github.com/bromigos-org/PC-Principal) | The Bromigos Discord agent — memory-aware conversations, moderation helpers, event capture | 🟢 LIVE |
+| [gnosis](https://github.com/bromigos-org/gnosis) | Self-hosted memory core for AI agents — Neo4j graph/vector store behind an authenticated gateway | 🟢 ACTIVE |
+| [homelab](https://github.com/bromigos-org/homelab) | Infrastructure — local cluster, GitOps, and the memory stack the agents run on | 🟢 ACTIVE |
+| [echocraft.net](https://github.com/bromigos-org/echocraft.net) | The Bromigos Minecraft network | 🟡 STAGING |
+| [GhostWriter](https://github.com/bromigos-org/GhostWriter) | Unified messaging automation across platforms | 🟡 IN DEV |
+| `[REDACTED]` | Horror game · RPG · living stories with custom music | 🔒 CLASSIFIED |
+
+### Mission phases
 
 ```mermaid
 gantt
     dateFormat  YYYY-MM-DD
-    title Bromigos MF Phase 0 Roadmap
+    title Bromigos MF Roadmap
 
-    section Discord Bot
-    Bromigo Go Discord Bot        :done, bot1, 2024-02-01, 25d
-    Add TempChannels feature     :done, vap1, after bot1, 10d
-    Add VentAnonymously feature        :done, tcp1, after vap1, 10d
-    Add PosttoChannel as bot feature       :done, ptc1, after tcp1, 5d
-    Add Deletepost as bot feature        :done, dp1, after ptc1, 8d
-    Add Server onboarding      :done,        sb1, after ne1, 10d
-    Add new Emojis to the server      :done,        ne1, after dp1, 5d
-    Interactive Bot Features        :        ibf1, after manga1, 45d
+    section Phase 00 — Foundation
+    Bromigo Go Discord bot & features   :done, p0a, 2024-02-01, 120d
+    Server onboarding & rituals         :done, p0b, after p0a, 90d
+    Homelab cluster & GitOps            :done, p0c, 2024-06-01, 180d
 
-    section AI
-    Neo4j Graph Database :active,        neo1, after sb1, 4w
-    Text Embedding Model :        tem1, after neo1, 4w
-    Vector Index on Neo4j:        vin1, after tem1, 4w
-    LLM RAG Augmented Index on Neo4j: lrain1, after vin1, 4w
-    Generative AI :        gai1, after lrain1, 4w
-    
+    section Phase 01 — Intelligence
+    gnosis memory core (graph + vector) :done, p1a, 2025-01-01, 270d
+    PC-Principal memory integration     :done, p1b, after p1a, 90d
+    BRODEC v1 — codec, comms, field ops :done, p1c, 2025-06-01, 365d
+    SurrealDB backend pilot             :active, p1d, 2026-05-01, 90d
+    Character & persona systems         :active, p1e, 2026-06-01, 150d
+    Generative interaction (agents)     :p1f, after p1d, 120d
 
-    section Community Engagement
-    Rework Coding Cohort          :        rcc1, after neo1, 4w
-    Progression System Integration:        psi1, after rcc1, 8w
-    Create Coding Introduction Course:      cic1, after psi1, 90d
-    Community Game Night Events Setup          :        cgn1, after rcc1, 8w
-    Hackathon Events Setup               :        hack1, after cgn1, 8w
+    section Phase 02 — Worldbuilding
+    Short stories & lore expansion      :active, p2a, 2026-08-01, 120d
+    Coding cohort rework                :p2b, 2026-10-01, 60d
+    Game nights & hackathons            :p2c, after p2b, 90d
+    EchoCraft Minecraft launch          :p2d, 2027-01-01, 60d
+    AI character in Minecraft           :p2e, after p2d, 60d
+    Virtual novel with custom music     :p2f, 2027-02-01, 90d
+    Horror game                         :p2g, after p2f, 120d
+    RPG development                     :p2h, after p2g, 180d
 
-    section Gaming
-    AI NPC LLM                 :        anp1, after lrain1, 8w
-    NPC Persona               :        np1, after anp1, 8w
-    NPC Persona 2             :        np2, after np1, 8w
-    Horror Game                     :        hg1, after ss2, 120d
-    RPG Game Development            :        rpg1, after hg1, 180d
-    Minecraft Server Launch         :        mc1, after web1, 8w
-    AI Character in Minecraft       :        ai1, after mc1, 4w
-
-    section Online Presence
-    YouTube Channel Launch          :        yt1, after rcc1, 12w
-    Twitch Channel Launch           :        twitch1, after yt1, 4w
-    Patreon Launch                  :        pat1, after twitch1, 4w
-    Website Version 1               :        web1, after vn1, 45d
-    Community Forum Launch          :        cf1, after web1, 4w
-
-    section Content Creation
-    Virtual Novel with Custom Music :        vn1, after tb3, 15d
-    Light Novel Manga Creation      :        manga1, after ai1, 90d
-    Propaganda Magazine Release     :        pm1, after ibf1, 30d
-
-    section Content Tooling
-    Transcoder Pipeline             :        tp1, after vn1, 4w
-    Content Management System       :        cms1, after tp1, 2w
-    Content Delivery Network        :        cdn1, after cms1, 15d
-
-    section Merchandising
-    Merchandise Store Launch        :        merch1, after pm1, 8w
-
-    section Literature
-    Settle on 5 Character names       :done,        scn1, after ne1, 3d
-    Brainstorm lore baseline     :done,        cb1, after scn1, 1w
-    Short Story #1:active,        ss1, after cb1, 3w
-    Short Story #2:        ss2, after ss1, 3w
-    Settle on 5 Characters to expand     :        scd1, after ss2, 2w
-    Research conversation and personality traits:        rcpt1, after scd1, 4w
-
-
+    section Phase 03 — Broadcast
+    YouTube & Twitch launch             :p3a, 2027-06-01, 90d
+    Community forum                     :p3b, after p3a, 60d
+    Patreon launch                      :p3c, after p3a, 60d
+    Light novel manga                   :p3d, 2027-08-01, 90d
+    Propaganda magazine                 :p3e, after p3d, 30d
+    Merch store launch                  :p3f, after p3e, 60d
 ```
 
-### Bromigos MF Phase 0 Roadmap
+#### Phase 00 — Foundation ✅ COMPLETE
 
-The Bromigos MF Phase 0 Roadmap outlines the initial phase in the development of the Bromigos interactive multimedia franchise. This roadmap focuses on establishing a strong community engagement foundation, developing initial gaming projects, expanding online presence, creating engaging content, initiating merchandising efforts, and starting literature projects.
+The community and technical base everything else stands on.
 
-#### Discord Bot
+- [x] Bromigo Go Discord bot — TempChannels, VentAnonymously, PostToChannel, DeletePost, ReactionRole
+- [x] Server onboarding, custom emojis, and community rituals
+- [x] Homelab cluster, GitOps applications, and shared infrastructure
 
-- Bromigo Go Discord Bot: The foundation of our interactive community engagement tools, providing essential functionality to our Discord server.
-- Add TempChannels Feature: Allows users to create temporary channels for specific conversations, enhancing user interaction.
-- Add VentAnonymously Feature: Enables users to share their thoughts anonymously, fostering a supportive community environment.
-- Add PosttoChannel as Bot Feature: Allows admins to post messages in any channel as the bot, improving communication flexibility.
-- Add Deletepost as Bot Feature (Active): Lets moderator request the deletion of a number of posts via the bot, adding a layer of privacy and control.
-- Add ReactionRole as Bot Feature: Enables role assignment through reactions to messages, simplifying user role management.
-- Interactive Bot Features: To be developed, aiming to make interactions more engaging and immersive within the Discord community.
+#### Phase 01 — Intelligence 🟡 IN PROGRESS
 
-#### Community Engagement
+Memory, context, and generative interaction across the network.
 
-- Rework Coding Cohort: Revamping our coding cohort system to provide more structured and beneficial learning experiences.
-- Progression System Integration: Introducing a progression system to visually track and reward community members' growth and contributions.
-- Create Coding Introduction Course: Developing an introductory coding course to welcome and educate newcomers to the coding community.
-- Community Game Night Events Setup: Organizing regular game night events to foster community engagement and provide entertainment.
-  Hackathon Events Setup: Setting up hackathon events to encourage innovation, collaboration, and skill development within the community.
+- [x] gnosis — tenant-scoped memory service over a Neo4j graph/vector store with an LLM gateway
+- [x] PC-Principal rebuilt as a memory-aware agent talking to gnosis over HTTP
+- [x] BRODEC v1 — codec calls with lip-synced AI specialists, squad voice/video, live transcripts, geofenced field missions, and the HQ web command center
+- [ ] SurrealDB pilot — measurable evidence for replacing Neo4j as the gnosis backend
+- [ ] Character baselines, persona systems, and conversation research
+- [ ] Generative AI features surfaced across the bot and games
 
-#### Gaming
+#### Phase 02 — Worldbuilding 🔜 QUEUED
 
-- Text-Based Games: Development of immersive text-based games to introduce the community to the Bromigos universe.
-- Horror Game: A thrilling horror game project to diversify our gaming portfolio and engage fans of the genre.
-- RPG Game Development: Creating an RPG that encapsulates the essence of the Bromigos universe, offering depth, story, and character development.
-- Minecraft Server Launch: Establishing a Minecraft server themed around the Bromigos universe, enhancing the immersive experience.
-- AI Character in Minecraft: Integrating an AI character from previous games into the Minecraft server, connecting various elements of the Bromigos universe.
+Stories, games, and an evolving shared canon.
 
-#### Online Presence
+- [ ] Short stories #1 and #2, lore baseline expansion, and the five expanded characters
+- [ ] Reworked coding cohort and introduction course
+- [ ] Community game nights and hackathon events
+- [ ] EchoCraft Minecraft server launch — with an AI character from the canon walking the server
+- [ ] Virtual novel with custom music
+- [ ] Horror game, then the RPG
 
-- YouTube & Twitch Channel Launch: Starting YouTube and Twitch channels to share content, updates, and live streams with our community.
-- Patreon Launch: Launching a Patreon to offer exclusive content and perks to supporters, helping fund further developments.
-- Website Version 1: Rolling out the first version of our website, serving as a central hub for all things Bromigos.
-- Community Forum Launch: Launching a forum on our website to provide a space for discussions, feedback, and community building.
+#### Phase 03 — Broadcast 📡 LONG RANGE
 
-#### Content Creation
+A home for the fandom.
 
-- Virtual Novel with Custom Music: Developing a virtual novel with custom music to tell captivating stories within the Bromigos universe.
-- Light Novel Manga Creation: Collaborating with artists to create a light novel manga, expanding our storytelling mediums.
-- Propaganda Magazine Release: Releasing a propaganda-style magazine to creatively share news, stories, and updates from the Bromigos universe.
+- [ ] YouTube and Twitch channel launches
+- [ ] Community forum on bromigos.org
+- [ ] Patreon, light novel manga, propaganda magazine, and the merch store
 
-#### Merchandising
+---
 
-- Merchandise Store Launch: Opening an online store to offer Bromigos-themed merchandise, allowing fans to own a piece of the universe.
-
-#### Literature
-
-- Settle on 5 Character Names (Active): Finalizing the names of key characters in the Bromigos universe to maintain consistency and identity.
-- Create 20 Character Baselines: Developing detailed character profiles to guide their development and interactions within the universe.
-- Settle on 5 Characters to Expand: Selecting characters with potential for further exploration and expansion in future projects.
-- Research Conversation and Personality Traits: Studying various conversation and personality traits to enhance character depth and authenticity.
+*The making is part of the story. Watch the pieces arrive — or bring something to the table: [contact@bromigos.org](mailto:contact@bromigos.org)*
