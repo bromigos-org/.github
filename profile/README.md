@@ -2,17 +2,17 @@
 
 **One network. Every world.** We are on a mission to build a Multimedia Interactive Franchise — community tools, memory-aware AI, games, and fiction that all connect back to one universe. Everything is built in public: the roadmaps below are live, subject to change at any time, and updated right here.
 
-**⌁ Command hub:** [bromigos.org](https://bromigos.org) · **⌁ Discord:** [join the network](https://discord.gg/Evd5RhWKH) · **⌁ Field comms:** [brodec.web.app](https://brodec.web.app)
+**⌁ Command hub:** [bromigos.org](https://bromigos.org) · **⌁ Discord:** [join the network](https://discord.gg/Evd5RhWKH)
 
 ### Active operations
 
 | Operation | Role | Status |
 |---|---|---|
-| [BRODEC](https://github.com/bromigos-org/brodec) | Retro-codec tactical comms game — AI specialists, squad calls, geofenced field ops | 🟢 LIVE |
+| BRODEC | Retro-codec tactical comms game — AI specialists, squad calls, geofenced field ops | 🟢 LIVE |
 | [PC-Principal](https://github.com/bromigos-org/PC-Principal) | The Bromigos Discord agent — memory-aware conversations, moderation helpers, event capture | 🟢 LIVE |
 | [gnosis](https://github.com/bromigos-org/gnosis) | Self-hosted memory core for AI agents — Neo4j graph/vector store behind an authenticated gateway | 🟢 ACTIVE |
-| [homelab](https://github.com/bromigos-org/homelab) | Infrastructure — local cluster, GitOps, and the memory stack the agents run on | 🟢 ACTIVE |
-| [echocraft.net](https://github.com/bromigos-org/echocraft.net) | The Bromigos Minecraft network | 🟡 STAGING |
+| homelab | Infrastructure — local cluster, GitOps, and the memory stack the agents run on | 🟢 ACTIVE |
+| echocraft.net | The Bromigos Minecraft network | 🟡 STAGING |
 | [GhostWriter](https://github.com/bromigos-org/GhostWriter) | Unified messaging automation across platforms | 🟡 IN DEV |
 | `[REDACTED]` | Horror game · RPG · living stories with custom music | 🔒 CLASSIFIED |
 
