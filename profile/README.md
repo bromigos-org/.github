@@ -2,7 +2,7 @@
 
 **One network. Every world.** We are on a mission to build a Multimedia Interactive Franchise — community tools, memory-aware AI, games, and fiction that all connect back to one universe. Everything is built in public: the roadmaps below are live, subject to change at any time, and updated right here.
 
-**⌁ Command hub:** [bromigos.org](https://bromigos.org) · **⌁ Discord:** [join the network](https://discord.gg/Evd5RhWKH) · **⌁ Field comms:** [brodec.ai](https://brodec.ai)
+**⌁ Command hub:** [bromigos.org](https://bromigos.org) · **⌁ Discord:** [join the network](https://discord.gg/8bjGcFvGZU) · **⌁ Field comms:** [brodec.ai](https://brodec.ai)
 
 ### Active operations
 
