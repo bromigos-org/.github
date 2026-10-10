@@ -2,18 +2,20 @@
 
 **One network. Every world.** We are on a mission to build a Multimedia Interactive Franchise — community tools, memory-aware AI, games, and fiction that all connect back to one universe. Everything is built in public: the roadmaps below are live, subject to change at any time, and updated right here.
 
-**⌁ Command hub:** [bromigos.org](https://bromigos.org) · **⌁ Discord:** [join the network](https://discord.gg/8bjGcFvGZU) · **⌁ Field comms:** [brodec.ai](https://brodec.ai)
+**⌁ Command hub:** [bromigos.org](https://bromigos.org) · **⌁ bromigOS:** [the desktop](https://bromigos.org/os) · **⌁ Discord:** [join the network](https://discord.gg/8bjGcFvGZU) · **⌁ Field comms:** [brodec.ai](https://brodec.ai)
 
 ### Active operations
 
 | Operation | Role | Status |
 |---|---|---|
+| [bromigOS](https://bromigos.org/os) | A desktop based on Arch Linux and Hyprland: living worlds behind your windows, holograms, your homelab on screen, and VECTOR, an AI with a voice who lives on your desk | 🟡 EARLY ACCESS |
 | [BRODEC](https://brodec.ai) | Retro-codec tactical comms game — AI specialists, squad calls, geofenced field ops | 🟢 LIVE |
+| [bromigos.org](https://bromigos.org) | The network's home: the worlds, the lore and its star map, the operators, and the Clearance ladder | 🟢 LIVE |
 | [PC-Principal](https://github.com/bromigos-org/PC-Principal) | The Bromigos Discord agent — memory-aware conversations, moderation helpers, event capture | 🟢 LIVE |
 | [gnosis](https://github.com/bromigos-org/gnosis) | Self-hosted memory core for AI agents — Neo4j graph/vector store behind an authenticated gateway | 🟢 ACTIVE |
 | homelab | Infrastructure — local cluster, GitOps, and the memory stack the agents run on | 🟢 ACTIVE |
 | echocraft.net | The Bromigos Minecraft network | 🟡 STAGING |
-| [GhostWriter](https://github.com/bromigos-org/GhostWriter) | Unified messaging automation across platforms | 🟡 IN DEV |
+| [GhostWriter](https://github.com/bromigos-org/GhostWriter) | Unified messaging automation across platforms | ⏸️ ON HOLD |
 | `[REDACTED]` | Horror game · RPG · living stories with custom music | 🔒 CLASSIFIED |
 
 ### Mission phases
@@ -34,6 +36,7 @@ gantt
     BRODEC v1 — codec, comms, field ops :done, p1c, 2025-06-01, 365d
     SurrealDB backend pilot             :done, p1d, 2026-05-01, 90d
     Character & persona systems         :active, p1e, 2026-06-01, 150d
+    bromigOS & VECTOR (early access)    :active, p1g, 2026-10-01, 90d
     Generative interaction (agents)     :p1f, after p1d, 120d
 
     section Phase 02 — Worldbuilding
@@ -71,6 +74,7 @@ Memory, context, and generative interaction across the network.
 - [x] PC-Principal rebuilt as a memory-aware agent talking to gnosis over HTTP
 - [x] BRODEC v1 — codec calls with lip-synced AI specialists, squad voice/video, live transcripts, geofenced field missions, and the HQ web command center
 - [x] SurrealDB pilot — measured against Neo4j as the gnosis backend; Neo4j stays
+- [x] bromigOS 0.1.2 in early access — living worlds and themes, holograms, a homelab console, a Settings app, and VECTOR (October 2026)
 - [ ] Character baselines, persona systems, and conversation research
 - [ ] Generative AI features surfaced across the bot and games
 
