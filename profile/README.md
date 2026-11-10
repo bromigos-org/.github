@@ -12,7 +12,7 @@
 | [BRODEC](https://brodec.ai) | Retro-codec tactical comms game — AI specialists, squad calls, geofenced field ops | 🟢 LIVE |
 | [bromigos.org](https://bromigos.org) | The network's home: the worlds, the lore and its star map, the operators, and the Clearance ladder | 🟢 LIVE |
 | [PC-Principal](https://github.com/bromigos-org/PC-Principal) | The Bromigos Discord agent — memory-aware conversations, moderation helpers, event capture | 🟢 LIVE |
-| [gnosis](https://github.com/bromigos-org/gnosis) | Self-hosted memory core for AI agents — Neo4j graph/vector store behind an authenticated gateway | 🟢 ACTIVE |
+| gnosis | Self-hosted memory core for AI agents — Neo4j graph/vector store behind an authenticated gateway | 🟢 ACTIVE |
 | homelab | Infrastructure — local cluster, GitOps, and the memory stack the agents run on | 🟢 ACTIVE |
 | echocraft.net | The Bromigos Minecraft network | 🟡 STAGING |
 | [GhostWriter](https://github.com/bromigos-org/GhostWriter) | Unified messaging automation across platforms | ⏸️ ON HOLD |
